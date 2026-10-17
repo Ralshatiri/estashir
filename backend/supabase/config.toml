@@ -1,0 +1,2 @@
+[functions.gemini-live-token]
+verify_jwt = false

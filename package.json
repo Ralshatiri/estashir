@@ -1,0 +1,13 @@
+{
+  "name": "estashir",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:backend": "backend\\.venv\\Scripts\\python.exe -m uvicorn server:app --app-dir backend --host 127.0.0.1 --port 8000 --reload",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "setup:frontend": "npm --prefix frontend ci"
+  }
+}
